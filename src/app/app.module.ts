@@ -9,11 +9,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 import { EmployeeComponent } from './employee/employee.component';
+import { MenuHeaderComponent } from './menu-header/menu-header.component';
 
 
 @NgModule({
   imports:      [ BrowserModule,AppRoutingModule],
-  declarations: [ AppComponent,EmployeeComponent],
+  declarations: [ AppComponent,EmployeeComponent, MenuHeaderComponent],
   bootstrap :[AppComponent]
 })
 export class AppModule { }
