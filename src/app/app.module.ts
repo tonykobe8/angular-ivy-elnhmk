@@ -3,17 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { RouterModule,Routes } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
-import { EmployeeComponent } from './employee/employee.component';
 
+import { DepartmentComponent } from './department/department.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 
 @NgModule({
   imports:      [ BrowserModule,AppRoutingModule],
-  declarations: [ AppComponent,EmployeeComponent],
+  declarations: [ AppComponent, DepartmentComponent],
   bootstrap :[AppComponent]
 })
 export class AppModule { }
