@@ -12,12 +12,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { EmployeesComponent } from './employees/employees.component';
 import { DepartmentsComponent } from './departments/departments.component';
 import { MenuHeaderComponent } from './menu-header/menu-header.component';
-import { ProjectsComponent } from './projects/projects.component';
+
 
 
 @NgModule({
   imports:      [ BrowserModule,AppRoutingModule],
-  declarations: [ AppComponent, EmployeesComponent, DepartmentsComponent, MenuHeaderComponent, ProjectsComponent],
+  declarations: [ AppComponent, EmployeesComponent, DepartmentsComponent, MenuHeaderComponent],
   bootstrap :[AppComponent]
 })
 export class AppModule { }
