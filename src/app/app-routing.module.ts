@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {BrowserModule} from '@angular/platform-browser';
-
+import { MenuHeaderComponent } from './menu-header/menu-header.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { DepartmentsComponent } from './departments/departments.component';
 import { ProjectsComponent } from './projects/projects.component';
